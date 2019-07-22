@@ -1,0 +1,89 @@
+.spec-support
+{
+    width: 15vw;
+    height: 5vh;
+    bottom: 0;
+    right: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(225, 196, 53);
+    cursor: pointer;
+    .spec-arrow
+    {
+        transform: rotate(-45deg);
+    }
+}
+.spec-chat-box
+{
+    width: 60vw;
+    height: 75vh;
+    border-radius: 15px;
+    background-color: rgb(90, 87, 87);
+    overflow-y: auto;
+    .spec-chat-box-top
+    {
+        height: 10vh;
+        border-top-left-radius: 15px;
+        // border-top-right-radius: 15px;
+        background-color: #a0ba41;
+    }
+    .spec-chat-line-supporter
+    {
+        border-bottom: 1px solid rgb(110, 108, 108);
+        .spec-supporter
+        {
+            width: 60px;
+            height: 50px;
+            border-radius: 10px;
+        }
+    }
+    .spec-hover
+    {
+        transition: all .1s ease-in-out;
+        &:hover
+        {
+            background-color: rgba(158, 154, 154, 0.5);
+            border-radius: 15px;
+            cursor: pointer;
+        }
+    }
+    .spec-selected
+    {
+        background-color: rgba(158, 154, 154, 0.5);
+        border-radius: 15px;
+        cursor: pointer;
+    }
+    .spec-chat-line-customer
+    {
+        border-bottom: 1px solid rgb(110, 108, 108);
+        .spec-customer
+        {
+            width: 60px;
+            height: 60px;
+            border-radius: 10px;
+        }
+    }
+}
+.spec-chat-input
+{
+    width: 60vw;
+    height: 10vh;
+    border-radius: 15px;
+    background-color: rgb(90, 87, 87);
+    #input
+    {
+        width: 50vw;
+        height: 8vh;
+        text-indent: 10px;
+        outline: transparent;
+        border: transparent;
+        background-color: transparent;
+        color: white;
+    }
+    .spec-send
+    {
+        font-size: 30px;
+        color: rgb(199, 144, 43);
+        cursor: pointer;
+    }
+}

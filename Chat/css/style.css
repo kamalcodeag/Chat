@@ -1,0 +1,76 @@
+.spec-support {
+  width: 15vw;
+  height: 5vh;
+  bottom: 0;
+  right: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #e1c435;
+  cursor: pointer;
+}
+.spec-support .spec-arrow {
+  transform: rotate(-45deg);
+}
+
+.spec-chat-box {
+  width: 60vw;
+  height: 75vh;
+  border-radius: 15px;
+  background-color: #5a5757;
+  overflow-y: auto;
+}
+.spec-chat-box .spec-chat-box-top {
+  height: 10vh;
+  border-top-left-radius: 15px;
+  background-color: #a0ba41;
+}
+.spec-chat-box .spec-chat-line-supporter {
+  border-bottom: 1px solid #6e6c6c;
+}
+.spec-chat-box .spec-chat-line-supporter .spec-supporter {
+  width: 60px;
+  height: 50px;
+  border-radius: 10px;
+}
+.spec-chat-box .spec-hover {
+  transition: all .1s ease-in-out;
+}
+.spec-chat-box .spec-hover:hover {
+  background-color: rgba(158, 154, 154, 0.5);
+  border-radius: 15px;
+  cursor: pointer;
+}
+.spec-chat-box .spec-selected {
+  background-color: rgba(158, 154, 154, 0.5);
+  border-radius: 15px;
+  cursor: pointer;
+}
+.spec-chat-box .spec-chat-line-customer {
+  border-bottom: 1px solid #6e6c6c;
+}
+.spec-chat-box .spec-chat-line-customer .spec-customer {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+}
+
+.spec-chat-input {
+  width: 60vw;
+  height: 10vh;
+  border-radius: 15px;
+  background-color: #5a5757;
+}
+.spec-chat-input #input {
+  width: 50vw;
+  height: 8vh;
+  text-indent: 10px;
+  outline: transparent;
+  border: transparent;
+  background-color: transparent;
+  color: white;
+}
+.spec-chat-input .spec-send {
+  font-size: 30px;
+  color: #c7902b;
+  cursor: pointer;
+}

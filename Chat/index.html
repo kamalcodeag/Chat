@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chat by Kamal Guliyev</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row position-fixed spec-support">
+            <div class="col-12">
+                <div class="d-flex justify-content-around align-items-center spec-support-inner">
+                    <i class="far fa-comments text-white"></i>
+                    <span class="text-white">Canlı yardım</span>
+                    <i class="fas fa-arrows-alt-h text-white spec-arrow"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="container d-none spec-container"> 
+                <div class="row pt-3">
+                    <div class="col-12 d-flex justify-content-center">
+                        <div class="spec-chat-container">
+                            <div class="mb-5 spec-chat-box">
+                                <div class="d-flex align-items-center justify-content-between spec-chat-box-top">
+                                    <div class="pl-3 spec-top-left">
+                                        <i class="far fa-comments text-white"></i>
+                                        <span class="pl-3 text-white">Canlı yardım</span>
+                                    </div>
+                                    <div class="pr-3 d-none spec-top-right">
+                                        <i class="far fa-trash-alt text-white spec-trash"></i>
+                                        <span class="pl-1 text-white">Sil</span>
+                                    </div>
+                                </div>
+                                <div class="spec-chat-box-main">
+                                    <div class="py-2 px-3 d-flex align-items-center spec-chat-line-supporter">
+                                        <img src="img/supporter.jpg" class="spec-supporter">
+                                        <p class="mb-0 pl-2 text-white">Sizə necə kömək edə bilərəm ?</p>
+                                    </div>
+                                    <!-- <div class="p-2 d-flex align-items-center justify-content-end spec-chat-line-customer spec-hover spec-selected">
+                                        <p class="mb-0 pr-2 text-white">Salam</p>
+                                        <img src="img/customer.jpg" class="spec-customer">
+                                    </div> -->
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center justify-content-around spec-chat-input">
+                                <input type="text" id="input" placeholder="Ismarıcınızı buraya yazın" value="">
+                                <i class="fas fa-paper-plane spec-send"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+
+    
+
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
